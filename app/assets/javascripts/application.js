@@ -16,4 +16,5 @@
 //=  require bootstrap.min.js
 //= require_tree .
 
-alert("kikou JavaScript marche !")
+// alert("kikou JavaScript marche !")
+
