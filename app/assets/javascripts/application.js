@@ -13,4 +13,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//=  require bootstrap.min.js
 //= require_tree .
+
+alert("kikou JavaScript marche !")
