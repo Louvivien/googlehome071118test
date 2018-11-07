@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Google</title>
+  <%= favicon_link_tag asset_path('favicon.png'), :rel => 'icon', :type =>  'image/png' %>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="nav-bar">
+		<ul>
+			<li><a href="#">Gmail</a></li>
+			<li><a href="#">Images</a></li>
+			<li>		
+
+				<%=image_tag('icone-menu.svg', class: "icone-menu") %>
+
+			</li>
+			<li><a href="#" class="btn-connexion">Connexion</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<%=image_tag('logo.png', class: "logo") %>
+
+		<input class="input-text" type="text">
+
+
+		<%=image_tag('micro.png', class: "micro") %>
+
+			<div class="btn_search">
+				<a href="#">Recherche Google</a>
+				<a href="#">J'ai de la chance</a>
+			</div>
+	</main>
+
+	<footer>
+		<p>France</p>
+		<ul>
+			<li><a href="#">Publicité</a></li>
+			<li><a href="#">Entreprise</a></li>
+			<li><a href="#">À propos</a></li>
+			<li><a href="#">Info consommateurs</a></li>
+			<li><a href="#">Confidentialité</a></li>
+			<li><a href="#">Conditions</a></li>
+			<li><a href="#">Paramètres</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
